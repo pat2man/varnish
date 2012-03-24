@@ -20,7 +20,7 @@ INSTANCE=$(uname -n)
 #
 DAEMON_OPTS="-a :6081 \
              -T localhost:6082 \
-             -b localhost:8080 \
+             -b localhost:8088 \
              -u varnish -g varnish \
              -s file,/var/lib/varnish/$INSTANCE/varnish_storage.bin,1G"
 
